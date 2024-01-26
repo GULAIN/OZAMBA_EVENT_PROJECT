@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+        .tours {
+            background-color: #f4f4f4;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .rows {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col {
+        flex: 0 0 48%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .content-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images-col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .images-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .images-gallery img {
+        width: 100%;
+        margin-bottom: 10px;
+        transition:  0.3s ease;
+    }
+
+    .images-gallery img:hover {
+        background: #f4f4f4;
+    }
+    </style>
+     <style>
+        .tours {
+            background-color: #f4f4f4;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col {
+        flex: 0 0 48%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .content-col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .images-col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .images-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .images-gallery img {
+        width: 100%;
+        margin-bottom: 10px;
+        transition:  0.3s ease;
+    }
+
+    .images-gallery img:hover {
+        background: #f4f4f4;
+    }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: start;
+        }
+
+        nav {
+    width: 100%;
+    background-color: white;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 20px; 
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
+    transition: all .4s ease-in-out;
+    padding: 0px 16px;
+    display: block;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+    color: black;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li ul li {
+    line-height: 1;
+    width: 190px;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav ul li ul li a {
+    padding: 10px 16px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #A9A9A9;
+}
+
+nav ul li a:hover {
+    background-color: #A9A9A9;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        float: none; 
+        text-align: center;
+    }
+
+    nav ul li {
+        float: none;
+        display: inline-block;
+    }
+
+    nav ul li ul {
+        position: static; 
+        display: none;
+        width: 100%;
+    }
+
+    nav ul li:hover ul {
+        display: none;
+    }
+}
+
+        </style>
+    <title>Services</title>
+</head>
+<body>
+    <nav>
+        <ul>
+         <li><a href="ozamba.html">HOME</a></li>
+         <li><a href="aboutus.html">ABOUT US</a></li>
+         <li><a href="ourwork.html">OUR WORK</a></li>
+         <li><a href="#">SERVICES</a>
+         <ul>
+             <li><a href="sports.html" id="design">Sports</a></li>
+             <li><a href="Entertainment.html" id="build">Entertainment</a></li>
+             
+         </ul>
+         </li>
+         <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+     </nav>
+    <div class="ban">
+        <div class="navbar">
+            <a href="ozamba.html">        
+    </a>
+        </div>
+    </div>
+    <div class="non">
+        <h1 >ABOUT US</h1>
+        <p >Ozamba Events is a dynamic event organization specializing in sports and entertainment.<br/>
+            From tournaments to fashion shows, we craft unforgettable experiences across diverse sectors.<br/>
+             Our expertise lies in creating seamless events that leave a lasting impact, whether in sports, <br/>
+             fashion, music, literature, food, or corporate gatherings. With a blend of creativity and precision,<br/>
+              we bring your vision to life, ensuring every event is a resounding success. <br/>
+            Discover how Ozamba Events can create your next experience.</p>
+        </div>
+</body>
+</html>
